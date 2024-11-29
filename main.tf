@@ -4,7 +4,7 @@ module "somevpc" {
     vpcname = "codeenv-vpcplay"  
 }
 resource "aws_instance" "s1" {
-    instance_type = "t2.medium"
+    instance_type = "t2.micro"
     ami = "ami-0166fe664262f664c"
   
 }
